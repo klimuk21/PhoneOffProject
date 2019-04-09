@@ -4,9 +4,9 @@ import os
 
 def send_alert(subject, text):
 
-    to = ['akl@bamboogroup.eu']
-    gmail_user = 'klimuk.alex21@gmail.com'
-    gmail_pwd = 'reddevil95'
+    to = ['test@gmail.com']
+    gmail_user = 'demo@gmail.com'
+    gmail_pwd = '*******'
     smtpserver = smtplib.SMTP("smtp.gmail.com", 587)
     smtpserver.ehlo()
     smtpserver.starttls()
